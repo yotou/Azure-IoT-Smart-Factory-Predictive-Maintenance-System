@@ -7,9 +7,6 @@ It simulates industrial devices, collects real-time telemetry data, performs ano
 The system is designed with a **production-ready architecture** and supports **multi-cloud integration (Azure + AWS)**.
 
 ## 🏗️ Architecture
-## 🏗️ Architecture
-
-```mermaid
 graph TD
     A[IoT Devices Simulator] --> B[Azure IoT Hub]
     B --> C[Stream Analytics]
