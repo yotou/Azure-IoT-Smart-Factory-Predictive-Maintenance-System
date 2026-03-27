@@ -100,3 +100,37 @@ Infrastructure as Code using Terraform for Azure and AWS (multi-cloud architectu
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+
+cd api
+python app.py
+
+2. Start API server
+cd api
+python app.py
+3. Run simulator
+cd simulator
+python device_simulator.py
+Data Flow
+Simulator → API → Anomaly Detection → Response
+Future Improvements
+Integrate Azure IoT Hub (real device connection)
+Add Azure Functions for event-driven processing
+Implement ML models (LSTM / anomaly detection)
+Build Power BI dashboard
+Add Terraform deployment automation
+🎯 Use Cases
+Smart factory monitoring
+Predictive maintenance
+Industrial IoT analytics
+Energy optimization systems
+👨‍💻 Author
+Yu Tao (余泰 歌然)
+Cloud Engineer | Azure | AWS | IoT | AI
+
+⭐ Notes
+This project is designed as a portfolio-level cloud engineering project, demonstrating:
+
+Azure cloud architecture
+IoT system design
+DevOps & automation
+AI integration
