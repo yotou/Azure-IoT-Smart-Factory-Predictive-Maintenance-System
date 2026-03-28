@@ -51,7 +51,7 @@ industrial-energy-ai-demo/
 ├── processing/ # Stream processing & anomaly detection
 ├── ml/ # Machine learning models
 ├── api/ # Backend API (Flask)
-├── data/ # Sample data
+├── data/ # data
 ├── dashboard/ # Power BI dashboard
 ├── tests/ # Unit tests
 └── scripts/ # Utility scripts
