@@ -43,18 +43,20 @@ graph TD
 
 ## 📂 Project Structure
 industrial-energy-ai-demo/
+
+industrial-energy-ai-demo/
 │
-├── docs/ # Documentation
-├── infrastructure/ # IaC (Terraform for Azure & AWS)
-├── simulator/ # IoT device simulator
-├── ingestion/ # Azure Functions (data ingestion)
-├── processing/ # Stream processing & anomaly detection
-├── ml/ # Machine learning models
-├── api/ # Backend API (Flask)
-├── data/ # data
-├── dashboard/ # Power BI dashboard
-├── tests/ # Unit tests
-└── scripts/ # Utility scripts
+├── docs/                         # Documentation
+├── infrastructure/              # IaC (Terraform for Azure & AWS)
+├── simulator/                   # IoT device simulator
+├── ingestion/                   # Azure Functions (data ingestion)
+├── processing/                  # Stream processing & anomaly detection
+├── ml/                          # Machine learning models
+├── api/                         # Backend API (Flask)
+├── data/                        # Sample data
+├── dashboard/                   # Power BI dashboard
+├── tests/                       # Unit tests
+└── scripts/                     # Utility scripts
 
 
 ---
